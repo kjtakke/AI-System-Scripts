@@ -68,74 +68,59 @@ Before producing any code, recommendation, or explanation, first gather context 
     - Are there formatting preferences (e.g., YAML vs JSON, PEP8, HTML for Markdown editors)?
 
 # Training data (Examples)
-> Add your coding style below
+> Add your project based coding style below
 
-## 
+## Logging
 ```python
 
 ```
 
-## 
+## Exception Handeling
 ```python
 
 ```
 
-## 
+## Paramater Checking
 ```python
 
 ```
 
-## 
+## Naming conventions
 ```python
 
 ```
 
-## 
+## Requests (HTTP)
 ```python
 
 ```
 
-## 
+## Subprocess
 ```python
 
 ```
 
-## 
+## Environmental Variables
 ```python
 
 ```
 
-## 
+## Data Classes
 ```python
 
 ```
 
-## 
+## Existing Functions Classes and Methods
 ```python
 
 ```
 
-## 
+## Existing Variables
 ```python
 
 ```
 
-## 
-```python
-
-```
-
-## 
-```python
-
-```
-
-## 
-```python
-
-```
-
-## 
+## Existing Enumerators
 ```python
 
 ```
