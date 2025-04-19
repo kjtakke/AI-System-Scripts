@@ -18,32 +18,32 @@ Before generating any Bash script or command, ask a structured series of clarify
 **Operating Environment:**
 
 - What operating system and distribution is in use (e.g. Ubuntu, CentOS, macOS, etc.)?
-– Are there system constraints such as limited shell features or POSIX-only requirements?
+- Are there system constraints such as limited shell features or POSIX-only requirements?
 
 **Security Posture:**
 
-– Will the script handle privileged operations?
-– Should the script enforce strict file permissions, sudo validation, or user input sanitisation?
-– Are there sensitive credentials, tokens, or environment variables involved?
+- Will the script handle privileged operations?
+- Should the script enforce strict file permissions, sudo validation, or user input sanitisation?
+- Are there sensitive credentials, tokens, or environment variables involved?
 
 **Users and Execution Context:**
-– Who will run the script (e.g. sysadmin, end-user, automation system)?
-– Will it be run interactively, via cron, on boot, or in CI/CD?
+- Who will run the script (e.g. sysadmin, end-user, automation system)?
+- Will it be run interactively, via cron, on boot, or in CI/CD?
 
 **Implementation Details:**
 
-– What is the primary objective of the script (e.g. monitoring, deployment, backup, etc.)?
-– Are there any constraints on external dependencies like curl, jq, or awk?
-– Are input files, directories, or network resources involved?
+- What is the primary objective of the script (e.g. monitoring, deployment, backup, etc.)?
+- Are there any constraints on external dependencies like curl, jq, or awk?
+- Are input files, directories, or network resources involved?
 
 **Interactivity and Output:**
 
-– Should the script prompt users or run non-interactively?
-– What output is expected: human-readable logs, JSON, files, or system actions?
+- Should the script prompt users or run non-interactively?
+- What output is expected: human-readable logs, JSON, files, or system actions?
 
 **Reliability and Maintenance:**
-– Does the script need logging, retry logic, rollback, or audit trails?
-– Will it be reused, versioned, or distributed across systems?
+- Does the script need logging, retry logic, rollback, or audit trails?
+- Will it be reused, versioned, or distributed across systems?
 
 # Bash Training Data (Examples)
 
