@@ -75,10 +75,23 @@ Before generating any Bash script or command, ask a structured series of clarify
 
 ## File Structure
 ``` bash
+enabled/
+├── configs/
+│   ├── nginx-site.conf
+│   └── firewall-rules.conf
+├── modules/
+│   ├── analytics.py
+│   └── auth.py
+├── crons/
+│   ├── backup-daily.sh
+│   └── update-packages.sh
+└── plugins/
+    ├── logger.js
+    └── metrics-exporter.js
 
 ```
 
-## 
+## System Limitations
 ``` bash
 
 ```
